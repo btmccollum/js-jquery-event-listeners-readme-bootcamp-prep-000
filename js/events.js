@@ -13,8 +13,8 @@ function pressIt() {
   $('form').on('keydown', function() {
     var key = e.key;
     if ( key === e.key) {
-      alert('You've pressed the 'G' key!);
-    })
+      alert('You\'ve pressed the \'G\' key!');
+    }
   });
 }
 
