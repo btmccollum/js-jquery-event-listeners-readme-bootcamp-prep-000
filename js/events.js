@@ -12,7 +12,7 @@ function frameIt() {
 function pressIt() {
   $('form').on('keydown', function() {
     var key = e.key;
-    if ( key === e.key) {
+    if ( e.key === g ) {
       alert('You\'ve pressed the \'G\' key!');
     }
   });
