@@ -10,8 +10,8 @@ function frameIt() {
   });
 }
 function pressIt() {
-  $('form').on('keydown', function(e) {
-    if ( e.key === g ) {
+  $('form').on('keydown', function() {
+    if ( key === g ) {
       alert('You\'ve pressed the \'G\' key!');
     }
   });
