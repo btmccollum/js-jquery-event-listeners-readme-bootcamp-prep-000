@@ -12,7 +12,7 @@ function frameIt() {
 function pressIt() {
   $('form').on('keydown', function(e) {
     if ( e.keyCode === 71 ) {
-      alert('You\'ve pressed the \'G\' key!');
+      window.alert('You\'ve pressed the \'G\' key!');
     }
   });
 }
